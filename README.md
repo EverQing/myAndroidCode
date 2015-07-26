@@ -1,0 +1,2 @@
+# myAndroidCode
+exercised Android codes 
