@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <!--item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" / -->
+
+    <item android:title="Font Size"
+        android:icon="@drawable/color"
+        >
+        <menu>
+            <group android:checkableBehavior="single"
+                >
+                <item android:id="@+id/font_10"
+                    android:title="10号字体"/>
+                <item android:id="@+id/font_12"
+                    android:title="12号字体"/>
+                <item android:id="@+id/font_14"
+                    android:title="14号字体"/>
+                <item android:id="@+id/font_16"
+                    android:title="16号字体"/>
+                <item android:id="@+id/font_18"
+                    android:title="18号字体"/>
+            </group>
+
+        </menu>
+    </item>
+    <item android:id="@+id/plain_item"
+        android:title="Plain item"/>
+    <item android:title="Font Color"
+        android:icon="@drawable/color"
+        >
+        <menu>
+            <group>
+                <item android:id="@+id/red_font"
+                    android:title="红色"/>
+                <item android:id="@+id/blue_font"
+                    android:title="蓝色"/>
+                <item android:id="@+id/green_font"
+                    android:title="绿色"/>
+                <item android:id="@+id/black_font"
+                    android:title="黑色"/>
+            </group>
+
+        </menu>
+    </item>
+
+
+</menu>
